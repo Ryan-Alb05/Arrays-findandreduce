@@ -1,9 +1,9 @@
 const productos = [
-  { nombre: "Laptop", precio: 1000 },
-  { nombre: "Mouse", precio: 200 },
-  { nombre: "Teclado", precio: 500 },
+  { nombre: "Tv", precio: 1000 },
+  { nombre: "Ps4", precio: 200 },
+  { nombre: "Case", precio: 500 },
   { nombre: "Monitor", precio: 800 },
-  { nombre: "Auriculares", precio: 400 }
+  { nombre: "Airpods", precio: 400 }
 ];
 
 const productoBuscado = productos.find(producto => producto.nombre === "Mouse");
